@@ -13,6 +13,6 @@ int main ()
     printf("%p\n", &myAge);
 
     // Output the memory address of myAge with the pointer (0x7ffe5367e044)
-    printf("%d\n", *ptr);
+    printf("%d\n", *ptr+2);
     return 0;
 }
